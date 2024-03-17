@@ -2,14 +2,7 @@ import { lazy, Suspense } from "react"
 import { Link } from "react-router-dom"
 const ImageHeader  = lazy(() => import('./ImageHeader'))
 
-const SkeletonImage = () =>{
-    return (
-        <div className="col-md-6 ps-5 pe-5 p-2 pb-2 img ">
-            <div className="w-100 skeleton-header bg-skeleton-blue">
-            </div>
-        </div>
-    );
-}
+
 
 const Header = () =>{
     return(
@@ -23,9 +16,7 @@ const Header = () =>{
                             <Link className="mt-4 d-inline-block">Lihat Selengkapnya</Link>
                         </div>
                     </div>
-                    <Suspense fallback={<SkeletonImage/>}>
-                        <ImageHeader/>
-                    </Suspense>
+                    <ImageHeader/>
                 </div>
             </div>
         </div>

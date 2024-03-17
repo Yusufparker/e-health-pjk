@@ -288,9 +288,5 @@ nav .kues-nav:hover{
     background: linear-gradient(90deg, #639aff 25%, #79a5f7 50%, #639aff 75%);
 }
 
-.skeleton-header{
-    height: 450px !important;
-    border-radius: 40px;
 
-}
 
