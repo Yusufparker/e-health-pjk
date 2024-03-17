@@ -265,3 +265,32 @@ nav .kues-nav:hover{
 
 
 }
+
+
+@keyframes skeleton-animation {
+    0% {
+        background-position: -200px 0;
+    }
+
+    100% {
+        background-position: 200px 0;
+    }
+}
+
+.bg-skeleton{
+    animation: skeleton-animation 1.5s ease-in-out infinite;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+
+}
+
+.bg-skeleton-blue {
+    animation: skeleton-animation 1.5s ease-in-out infinite;
+    background: linear-gradient(90deg, #639aff 25%, #79a5f7 50%, #639aff 75%);
+}
+
+.skeleton-header{
+    height: 400px !important;
+    border-radius: 40px;
+
+}
+
