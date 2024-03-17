@@ -5,7 +5,9 @@
     --primary:#377BFA;
 }
 
-
+.fs-12{
+    font-size: 12px;
+}
 body{
     color: #3B3B3B;
 }
@@ -267,6 +269,31 @@ nav .kues-nav:hover{
     color: white;
     padding: 10px;
 }
+
+
+
+/* footer */
+
+footer h1{
+    font-size: 30px;
+}
+
+
+
+footer .sosmed{
+    gap: 15px;
+    
+}
+
+footer .sosmed a{
+    font-size: 25px;
+    color: #3B3B3B;
+}
+
+
+
+
+
 
 /* media tablet */
 
