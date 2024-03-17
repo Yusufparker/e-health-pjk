@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react"
+import { lazy } from "react"
 import { Link } from "react-router-dom"
 const ImageHeader  = lazy(() => import('./ImageHeader'))
 
