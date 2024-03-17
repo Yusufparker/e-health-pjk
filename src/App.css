@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root{
+    --primary:#377BFA;
+}
+
+
+body{
+    color: #3B3B3B;
+}
+
+.bg-dark{
+    background-color: #3B3B3B;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+nav h1{
+    font-size: 32px;
+    color: black;
+}
+
+nav h1 span{
+    font-size: 20px;
+    padding: 5px 0 5px 40px;
+    font-weight: 400;
+    border-left: 1px solid #000;
+}
+
+nav .toggle{
+    height: 40px;
+    width: 40px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--primary);
+    transition: all .4s;
+}
+nav .kues{
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--primary);
+    transition: all .4s;
+    padding: 8px 20px;
+}
+
+nav .toggle:hover, nav .kues:hover{
+    background-color: #0049d2;
+    transition: all .4s;
+}
+
+nav .list-nav{
+    top: 80px;
+    left: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 17.3px 0px rgba(0, 0, 0, 0.25);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .6s;
+    transform: translateY(-100px);
+}
+
+nav .list-nav.active{
+    transform: translateY(0);
+    opacity: 1;
+    max-height: 900px;
+    transition: all 1s;
+}
+
+nav .list-nav ul li{
+    /* background-color: #377BFA; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav .list-nav ul a{
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px;
+    color: #3B3B3B;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all .4s;
+}
+
+
+nav .list-nav ul li a:hover{
+    background-color: #ccdeff;
+    transition: all .4s;
+    color: var(--primary);
+}
+
+nav .list-nav ul li .kues-nav{
+    background:  var(--primary);
+    color: white;
+    transition: all .4s;
+    display: none;
+}
+
+nav .kues-nav:hover{
+    background-color: #0049d2 !important;
+    transition: all .4s;
+    color: white !important;
+}
+
+.home .header > div{
+    border-radius: 30px;
+    color: white;
+}
+
+.home .header h2{
+    font-size: 60px;
+}
+
+.home .header img{
+    border-radius: 50px;
+}
+
+.home .header a{
+    text-decoration: none;
+    background-color: white;
+    color: #3B3B3B;
+    padding: 10px 25px;
+    border-radius: 23px;
+    transition: all .4s;
+}
+
+.home .header a:hover{
+    transform: scale(1.1);
+    background-color: #3B3B3B;
+    color: white;
+    transition: all .4s;
+}
+
+/* aboot */
+
+.home .about img{
+    border-radius: 40px;
+}
+
+.home .about h2{
+    font-size: 33px;
+}
+
+.home .about p{
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+.home .about .link a{
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.home .about .link a:nth-child(2){
+    background-color: #3B3B3B;
+}
+
+.home .about .link a:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+/* materi */
+.home .materi .card-materi{
+    box-shadow: 0px 4px 17.3px 0px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.home .materi .card-materi .img{
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.home .materi .card-materi h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home .materi .card-materi p{
+    font-size: 14px;
+}
+
+.home .materi .card-materi a{
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+.home .materi .card-materi a:hover{
+    background-color: #0049d2 !important;
+    transition: all .4s;
+}
+
+
+/* media tablet */
+
+@media screen and (max-width: 875px) {
+    .home .header h2{
+        font-size: 32px;
+    }
+
+    .home .header p{
+        font-size: 14px;
+    }
+
+    .home .header .img{
+        padding: 0 !important;
+    }
+    
+}
+
+/* media mobile */
+@media screen and (max-width:768px) {
+    nav .kues{
+        display: none !important    ;
+    }
+    nav .kues-nav{
+        display: block !important;
+    }
+    nav h1{
+        font-size: 23px;
+    }
+    nav h1 span{
+        padding-left: 0px;
+        border: 0;
+        font-size: 15px;
+    }
+
+    nav ul li a{
+        font-size: 12px !important;
+    }
+
+    .home{
+        margin-top: 0 !important;
+    }
+
+    .home .header a{
+        margin-top: 10px !important;
+        margin-bottom: 30px;
+    }
+
+
+}
