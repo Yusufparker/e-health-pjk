@@ -1,3 +1,5 @@
+import Page1 from "../components/Fragments/DetailMateri/Page1"
+import Page2 from "../components/Fragments/DetailMateri/Page2"
 
 
 
@@ -8,14 +10,14 @@ const dataMateri = [
         title : "Apa itu Penyakit Jantung Koroner",
         thumbnail : "/img/materi/1.png",
         excerpt:"Penyakit jantung koroner (PJK) merupakan jenis  penyakit jantung dimana pembuluh darah...",
-        element : <></>
+        element : <Page1/>
     },
     {
         id : "faktor-risiko-terkena-penyakit-jantung-koroner",
         title : "Faktor Risiko Terkena Penyakit Jantung Koroner",
         thumbnail : "/img/materi/2.jpg",
         excerpt:"Lanjut usia mempunyai risiko lebih tinggi terkena penyakit jantung.  Meski proses penuaan....",
-        element : <></>
+        element : <Page2/>
     },
     {
         id : "apa-saja-tanda-gejala-penyakit-jantung-koroner",

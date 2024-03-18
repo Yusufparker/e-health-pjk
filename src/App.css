@@ -313,6 +313,35 @@
     }
 
 
+    /* materi page */
+    .materi .list-materi{
+        border: 1px solid #c6c6c6;
+        text-decoration: none;
+        color: #3B3B3B;
+        transition: all .4s;
+    }
+
+    .materi .list-materi:hover{
+        background-color: #dfeaff;
+        transition: all .4s;
+    }
+    
+    .materi .list-materi h6{
+        font-size: 14px;
+        
+    }
+
+
+    .prev-next a{
+        color: #3B3B3B;
+        transition: all .4s;
+    }
+
+    .prev-next a:hover{
+        transition: all .4s;
+        transform: scale(1.05);
+        color: #0049d2;
+    }
 
 
 
@@ -386,6 +415,15 @@
 
         .header-layout .breadcrumbs{
            display: none;
+        }
+
+        .page-1 p{
+            font-size: 14px;
+        }
+
+        .prev-next a{
+            font-size: 12px;
+
         }
 
 
