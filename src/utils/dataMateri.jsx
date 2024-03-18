@@ -33,7 +33,7 @@ const dataMateri = [
     },
     {
         id : "strategi-pencegahan-pjk-pada-penderita-hipertensi",
-        title : "Strategi pPncegahan PJK pada Penderita Pipertensi",
+        title : "Strategi Pencegahan PJK pada Penderita Hipertensi",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Hipertensi (tekanan darah tinggi) mempengaruhi 1 dari 3 orang dewasa di seluruh dunia. Hipertensi dapat mempersempit...",
         element : <></>

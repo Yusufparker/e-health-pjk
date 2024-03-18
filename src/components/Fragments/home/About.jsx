@@ -12,7 +12,7 @@ const About = () =>{
                             <h2 className="fw-bold">Kenal <span className="text-primary">Lebih Jauh</span> dengan <span className="text-primary">Penyakit Jantung Koroner</span></h2>
                             <p>Jantung merupakan organ yang sangat vital, karena sebagai alat pemompa darah ke seluruh tubuh sehingga sel tubuh mendapatkan oksigen dan makanan yang diperlukan untuk proses metabolisme. Salah satu hal yang perlu dicegah yaitu penyakit jantung koroner (PJK). Untuk itu, kita perlu mengetahui bagaimana cara agar jantung kita tetap sehat dan apa yang dapat dilakukan untuk menjaga kesehatan jantung kita.</p>
                             <div className=" row d-flex  link mt-5">
-                                <Link className="col-md-6 mb-2 mb-md-0 me-md-4">Lihat Selengkapnya</Link>
+                                <Link className="col-md-6 mb-2 mb-md-0 me-md-4" to="/materi">Lihat Selengkapnya</Link>
                                 <Link className="col-md-5">Hubungi Kami</Link>
                             </div>
                         </div>

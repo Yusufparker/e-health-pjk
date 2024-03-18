@@ -1,6 +1,5 @@
-import { lazy } from "react"
 import { Link } from "react-router-dom"
-const ImageHeader  = lazy(() => import('./ImageHeader'))
+import ImageHeader from "../home/ImageHeader"
 
 
 
@@ -13,7 +12,7 @@ const Header = () =>{
                         <div className="text-center">
                             <h2 className="fw-bold ps-2 pe-2">E-HEALTH FOR HEALTH FAILURE</h2>
                             <p className="mt-4">Discover the secret to keeping your heart healthy and bringing happiness to your life. A source of inspiration for a healthy lifestyle and sustainable happiness.</p>
-                            <Link className="mt-4 d-inline-block">Lihat Selengkapnya</Link>
+                            <Link className="mt-4 d-inline-block" to="/materi">Lihat Selengkapnya</Link>
                         </div>
                     </div>
                     <ImageHeader/>

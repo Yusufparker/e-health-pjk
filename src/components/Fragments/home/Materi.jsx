@@ -41,7 +41,7 @@ const Materi = () =>{
                             </Suspense>
                         ))
                     }
-                    <Link className="text-center text-decoration-none text-primary">Lihat Selengkapnya <i className="bi bi-arrow-right"></i></Link>
+                    <Link className="text-center text-decoration-none text-primary" to="/materi">Lihat Selengkapnya <i className="bi bi-arrow-right"></i></Link>
                 </div>
             </div>
         </div>

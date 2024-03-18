@@ -5,6 +5,9 @@ import { useState } from "react"
 
 const Navbar = () => {
     const [navActive, setNavActive] = useState(false)
+    const handleLinkClick = (e) => {
+        setNavActive(false)
+    };
 
     return (
         <nav className="p-3 bg-white">
@@ -17,16 +20,16 @@ const Navbar = () => {
                         {
                             dataMateri.map(d => (
                                 <li key={d.id}>
-                                    <Link to={`/materi/${d.id}}`}><i className="bi bi-book me-4"></i> {d.title}</Link>
+                                    <Link to={`/materi/${d.id}`} onClick={handleLinkClick}><i className="bi bi-book me-4"></i> {d.title}</Link>
                                 </li>
                             ))
                         }
                     </ul>
                 </div>
-                <div className="d-flex align-items-center">
+                <Link to="/" className="d-flex align-items-center text-decoration-none">
                     <img src="/img/logo-health.png" className="me-1 d-inline-block" style={{ height:"30px"}} alt="" />
                     <h1 className="fw-bold mt-2">E-HEALTH <span  className="d-inline-block ms-3">0821122314</span></h1>
-                </div>
+                </Link>
                 <div className="d-flex align-items-center ">
                     <Link className="me-4 kues d-inline text-decoration-none"><i className="bi bi-clipboard-data"></i> Isi Kuesioner</Link>
                     <button className="toggle" onClick={()=>setNavActive(!navActive)}><i className="bi bi-list"></i></button>
