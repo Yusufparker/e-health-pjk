@@ -5,6 +5,7 @@ import Materi from "../Fragments/home/Materi"
 import Contact from "../Fragments/home/Contact"
 
 
+
 const Home = () => {
     return (
         <LandingLayout>
@@ -15,6 +16,7 @@ const Home = () => {
                 <Contact/>
             </div>
         </LandingLayout>
+
         
     )
 }
