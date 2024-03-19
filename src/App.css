@@ -2,20 +2,22 @@
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
     :root{
-        --primary:#377BFA;
+        /* --primary:#377BFA; */
+        --primary:#0277BD;
     }
 
     .fs-12{
         font-size: 12px;
     }
     body{
-        color: #3B3B3B;
+        color: #3d3d3d;
+        font-family: "Roboto";
     }
 
 
 
     .bg-dark{
-        background-color: #3B3B3B;
+        background-color: #3d3d3d;
     }
 
     .bg-primary{
@@ -92,7 +94,7 @@
         border-radius: 10px;
         text-decoration: none;
         padding: 20px;
-        color: #3B3B3B;
+        color: #3d3d3d;
         font-weight: 600;
         font-size: 14px;
         width: 100%;
@@ -137,7 +139,7 @@
     .home .header a{
         text-decoration: none;
         background-color: white;
-        color: #3B3B3B;
+        color: #3d3d3d;
         padding: 10px 25px;
         border-radius: 23px;
         transition: all .4s;
@@ -145,7 +147,7 @@
 
     .home .header a:hover{
         transform: scale(1.1);
-        background-color: #3B3B3B;
+        background-color: #3d3d3d;
         color: white;
         transition: all .4s;
     }
@@ -178,7 +180,7 @@
     }
 
     .home .about .link a:nth-child(2){
-        background-color: #3B3B3B;
+        background-color: #3d3d3d;
     }
 
     .home .about .link a:hover{
@@ -265,7 +267,7 @@
     }
 
     .home .contact form button{
-        background-color: #3B3B3B;
+        background-color: #3d3d3d;
         border-radius: 10px;
         border: 0;
         width: 100%;
@@ -290,7 +292,7 @@
 
     footer .sosmed a{
         font-size: 25px;
-        color: #3B3B3B;
+        color: #3d3d3d;
     }
 
     /* header layout */
@@ -317,7 +319,7 @@
     .materi .list-materi{
         border: 1px solid #c6c6c6;
         text-decoration: none;
-        color: #3B3B3B;
+        color: #3d3d3d;
         transition: all .4s;
     }
 
@@ -333,17 +335,50 @@
 
 
     .prev-next a{
-        color: #3B3B3B;
+        color: #3d3d3d;
         transition: all .4s;
     }
 
     .prev-next a:hover{
         transition: all .4s;
         transform: scale(1.05);
-        color: #0049d2;
+        color: var(--primary);
     }
 
 
+
+    /* page2 */
+
+    .page-2 .btn-swap {
+        border-bottom: 1px solid rgb(203, 203, 203);
+    }
+    .page-2 .btn-swap button{
+        border: 0;
+        color: #3d3d3d;
+        background-color: white;
+        font-size: 14px;
+    }
+
+    .page-2 .btn-swap button.active{
+        color: var(--primary);
+        position: relative;
+    }
+
+    .page-2 .btn-swap button.active::before{
+        content: "";
+        width: 100%;
+        height: 4px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: var(--primary);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .page-2 .content p{
+        font-size: 14px;
+    }
 
 
     /* media tablet */
@@ -422,7 +457,7 @@
         }
 
         .prev-next a{
-            font-size: 12px;
+            font-size: 11px;
 
         }
 

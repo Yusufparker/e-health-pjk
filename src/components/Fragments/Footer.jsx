@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom"
 
 const Footer = () => {
-    const newLocal = "text-primary border-2"
     return (
         <>
-            <hr className={newLocal} />
+            <hr/>
             <footer >
                 <div className="container p-3   text-center">
                         <div className="d-flex align-items-center  justify-content-center">

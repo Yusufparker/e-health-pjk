@@ -1,0 +1,59 @@
+{
+    
+        "faktor1" : [
+            {
+                "title" : "Usia",
+                "image" : "/img/kakek nenek.jpg",
+                "desc"  : "Lanjut usia mempunyai risiko lebih tinggi terkena penyakit jantung. Meski proses penuaan tidak dapat dihindari, gaya hidup sehat dianjurkan untuk mengurangi faktor risiko penyakit jantung."
+            },
+            {
+                "title" : "Jenis Kelamin",
+                "image" : "/img/jenis kelamin.jpg",
+                "desc"  : "Meskipun kejadian PJK pada wanita lebih rendah dibandingkan pria, wanita mempunyai angka kematian yang lebih tinggi dan prognosis yang lebih buruk setelah kejadian kardiovaskular akut."
+            },
+            {
+                "title" : "Riwayat Keluarga",
+                "image" : "/img/family.jpg",
+                "desc"  : "Penyakit jantung memiliki unsur genetik, sehingga riwayat keluarga dengan penyakit jantung menjadi faktor risiko terjadinya penyakit jantung."
+            }
+        ],
+        "faktor2" : [
+            {
+                "title" : "Hipertensi (Tekanan Darah Tinggi)",
+                "image" : "/img/hipertensi.jpg",
+                "desc"  : "Tekanan darah tinggi merupakan penyebab utama penyakit jantung karena merusak lapisan pembuluh darah sehingga lebih rentan terhadap penumpukan plak, yang mempersempit pembuluh darah yang menuju jantung."
+            },
+            {
+                "title" : "Kolesterol Tinggi",
+                "image" : "/img/kolesterol.jpeg",
+                "desc"  : "Kolesterol yang tinggi dapat melipatgandakan risiko seseorang terkena penyakit jantung. Kelebihan kolesterol dapat menumpuk di dinding pembuluh darah dan membatasi aliran darah ke jantung, otak, ginjal dan organ lain."
+            },
+            {
+                "title" : "Diabetes Melitus (Kencing Manis)",
+                "image" : "/img/diabetes melitus.jpg",
+                "desc"  : "DM merupakan sekelompok penyakit metabolik yang ditandai dengan peningkatan kadar gula dalam darah. Orang dewasa yang mengidap DM 2x lebih berisiko terkena penyakit jantung dibandingkan orang yang tidak menderita DM. Seiring berjalannya waktu, gula darah yang tinggi dapat merusak pembuluh darah di jantung."
+            },
+            {
+                "title" : "Merokok dan Paparan Asap Rokok",
+                "image" : "/img/no_smoking.jpg",
+                "desc"  : "Merokok dapat merusak tubuh dengan berbagai cara, salah satunya dengan membuat darah menjadi lebih mudah menggumpal sehingga dapat menghambat aliran darah ke jantung."
+            },
+            {
+                "title" : "Obesitas (Kegemukan)",
+                "image" : "/img/obesitas.jpg",
+                "desc"  : "Orang yang kelebihan berat badan atau obesitas mempunyai risiko lebih tinggi terkena penyakit jantung serta faktor risikonya daripada orang dengan berat badan normal."
+            },
+            {
+                "title" : "Pola Makan Tidak Sehat",
+                "image" : "/img/junk food.jpg",
+                "desc"  : "Makanan cepat saji (junk food) sering kali memiliki kadar lemak jenuh, gula dan garam yang tinggi. Hal ini dapat memicu peradangan sehingga meningkatkan risiko penyakit jantung. Selain itu makanan yang terlalu banyak garam (natrium) dapat meningkatkan tekanan darah."
+            },
+            {
+                "title" : "Kurang Aktivitas Fisik",
+                "image" : "/img/aktivitas fisik.jpg",
+                "desc"  : "Kurangnya aktivitas fisik juga dapat menyebabkan penyakit jantung—bahkan bagi orang yang tidak memiliki faktor risiko lain."
+            }
+        ]
+
+    
+    }
