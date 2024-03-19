@@ -53,11 +53,11 @@ const Page2 = () => {
                     <button className={` p-3 ${state2 ? 'active' : ''}`} onClick={handleState2}>Faktor Risiko Yang Dapat  Dirubah</button>
                 </div>
                 <div  className="p-4 content">
-                    {
-                        state1 ? 
-                        <ListData data={faktorData.faktor1}/>
+                     {/* Menggunakan key unik untuk memastikan gambar yang baru dimuat */}
+                    {state1 ?
+                        <ListData key="faktor1" data={faktorData.faktor1} />
                         :
-                        <ListData data={faktorData.faktor2}/>
+                        <ListData key="faktor2" data={faktorData.faktor2} />
                     }
                 </div>
             </div>
