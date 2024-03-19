@@ -34,6 +34,7 @@ const Page2 = () => {
     const [state1, setState1] =useState(true)
     const [state2, setState2] =useState(false)
     const [faktorData, setFaktorData] = useState(dataFaktorRisiko);
+    
 
     const handleState1 = () =>{
         setState1(true)
@@ -52,7 +53,12 @@ const Page2 = () => {
                     <button className={` p-3 ${state2 ? 'active' : ''}`} onClick={handleState2}>Faktor Risiko Yang Dapat  Dirubah</button>
                 </div>
                 <div  className="p-4 content">
-                    <ListData data={ state1 ?  faktorData.faktor1 : faktorData.faktor2}/>
+                    {
+                        state1 ? 
+                        <ListData data={faktorData.faktor1}/>
+                        :
+                        <ListData data={faktorData.faktor2}/>
+                    }
                 </div>
             </div>
 
