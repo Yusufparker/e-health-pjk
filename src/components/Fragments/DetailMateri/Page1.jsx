@@ -1,9 +1,16 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Page1 = () => {
     return (
         <div className="page-1 row">
             <div className="col-md-5 p-5">
-                <img src="/img/orang banyak.jpg" className="w-100" alt="" />
+                <LazyLoadImage
+                    alt="health"
+                    src="/img/orang banyak.jpg"
+                    className="w-100" 
+                    effect="blur"    
+                />
             </div>
             <div className="col-md-7 d-flex align-items-center p-3">
                 <div className="text-center text-md-start">

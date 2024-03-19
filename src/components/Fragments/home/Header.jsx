@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import ImageHeader from "../home/ImageHeader"
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 
 const Header = () =>{
@@ -15,7 +15,15 @@ const Header = () =>{
                             <Link className="mt-4 d-inline-block" to="/materi">Lihat Selengkapnya</Link>
                         </div>
                     </div>
-                    <ImageHeader/>
+                    
+                    <div className="col-md-6 ps-5 pe-5 p-2 pb-2 img">
+                        <LazyLoadImage
+                            alt="jantung sehat"
+                            src="/img/jantunggg.jpg"
+                            className="w-100" 
+                            effect="blur"    
+                        />
+                        </div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 import { useState } from "react"
 import dataFaktorRisiko from "../../../utils/dataFaktorRisiko.json"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 
 const ListData = ({data}) => {
@@ -10,7 +12,13 @@ const ListData = ({data}) => {
                     
                     <div className="row" key={index}>
                         <div className="col-md-3 text-center mb-5 mb-md-0">
-                            <img src={d.image} className="w-50 rounded" alt="" />
+                            <LazyLoadImage
+                                alt={d.title}
+                                src={d.image}
+                                className="w-50" 
+                                effect="blur"
+                                
+                                />
                         </div>
                         <div className="col-md-9 d-flex align-items-center">
                             <div>
