@@ -1,6 +1,7 @@
 import { RouterProvider} from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css"; 
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 
 AOS.init();

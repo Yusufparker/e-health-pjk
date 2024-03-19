@@ -1,7 +1,7 @@
 import { useState } from "react"
 import dataFaktorRisiko from "../../../utils/dataFaktorRisiko.json"
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+
 
 
 const ListData = ({data}) => {

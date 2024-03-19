@@ -1,5 +1,6 @@
 import Page1 from "../components/Fragments/DetailMateri/Page1"
 import Page2 from "../components/Fragments/DetailMateri/Page2"
+import Page3 from "../components/Fragments/DetailMateri/Page3"
 
 
 
@@ -24,7 +25,7 @@ const dataMateri = [
         title : "Apa Saja Tanda Gejala Penyakit Jantung Koroner",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Tekanan darah tinggi merupakan penyebab utama  penyakit jantung karena merusak lapisan...",
-        element : <></>
+        element : <Page3/>
     },
     {
         id : "Strategi-cerdik-untuk-menjalani-gaya-hidup-sehat-jantung",

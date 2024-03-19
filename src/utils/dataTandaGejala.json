@@ -1,0 +1,35 @@
+
+[
+    {
+        "name" : "Keringat Dingin",
+        "image" : "/img/keringat dingin.jpg"
+    },
+    {
+        "name" : "Pusing",
+        "image" : "/img/pusing.jpg"
+    },
+    {
+        "name" : "Mual dan Muntah",
+        "image" : "/img/mual.jpg"
+    },
+    {
+        "name" : "Sakit Leher",
+        "image" : "/img/sakit leher.jpg"
+    },
+    {
+        "name" : "Sesak Nafas",
+        "image" : "/img/sesak nafas.jpg"
+    },
+    {
+        "name" : "Kelelahan",
+        "image" : "/img/kelelahan.jpg"
+    },
+    {
+        "name" : "Nyeri Perut",
+        "image" : "/img/nyeri perut.jpg"
+    },
+    {
+        "name" : "Gangguan Tidur",
+        "image" : "/img/insomnia.jpg"
+    }
+]
