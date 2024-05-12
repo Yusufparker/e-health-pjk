@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className={`list-nav ${navActive ?  'active' : ''} position-absolute w-100 p-3 bg-white border `}>
                     <ul className="list-inline">
                         <li>
-                            <Link className="me-4 kues-nav text-decoration-none "><i className="bi bi-clipboard-data me-4"></i> Mulai Skrining</Link>
+                            <Link className="me-4 kues-nav text-decoration-none " to="/screening"><i className="bi bi-clipboard-data me-4"></i> Mulai Skrining</Link>
                         </li>
                         {
                             dataMateri.map(d => (
