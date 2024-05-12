@@ -157,7 +157,7 @@ const Skrining = () => {
       <div className="container mt-5 mb-5 ps-4 pe-4">
         <div className="row">
           {isSuccess ? (
-            <div className="col-md-6">
+            <div className="col-md-6 mb-5">
               <p>
                 Hai <span className="text-primary fw-bold">{name}</span>,
                 berikut adalah hasil skrining penyakit jantung koroner!
@@ -252,7 +252,7 @@ const Skrining = () => {
               </table>
             </div>
           ) : (
-            <div className="col-md-6">
+            <div className="col-md-6  mb-1 mb-5">
               <form onSubmit={handleSubmit} className="mb-5">
                 {formSection === 1 && (
                   <>
