@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className={`list-nav ${navActive ?  'active' : ''} position-absolute w-100 p-3 bg-white border `}>
                     <ul className="list-inline">
                         <li>
-                            <Link className="me-4 kues-nav text-decoration-none "><i className="bi bi-clipboard-data me-4"></i> Isi Kuesioner</Link>
+                            <Link className="me-4 kues-nav text-decoration-none "><i className="bi bi-clipboard-data me-4"></i> Mulai Skrining</Link>
                         </li>
                         {
                             dataMateri.map(d => (
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <h1 className="fw-bold mt-2">E-HEALTH <span  className="d-inline-block ms-3">0821122314</span></h1>
                 </Link>
                 <div className="d-flex align-items-center ">
-                    <Link className="me-4 kues d-inline text-decoration-none"><i className="bi bi-clipboard-data"></i> Isi Kuesioner</Link>
+                    <Link className="me-4 kues d-inline text-decoration-none" to="/screening"><i className="bi bi-clipboard-data"></i> Mulai Skrining</Link>
                     <button className="toggle" onClick={()=>setNavActive(!navActive)}><i className="bi bi-list"></i></button>
                 </div>
             </div>

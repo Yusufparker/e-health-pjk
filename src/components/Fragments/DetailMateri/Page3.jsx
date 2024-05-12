@@ -29,7 +29,7 @@ const Page3 = () => {
             <div className="row mt-5">
                 {
                     datas.map( (data, index) => (
-                        <div className="col-6 col-md-3 text-center mb-5">
+                        <div className="col-6 col-md-3 text-center mb-5" key={index}>
                             <LazyLoadImage
                                 src={data.image}
                                 alt={`gambar ${data.name}`}

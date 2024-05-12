@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Materi = () => {
     return (
         <LandingLayout>
-            <HeaderLayout title="Materi"  />
+            <HeaderLayout title="Materi" hasroot={false} />
             <div className="container materi mt-4">
                 {
                     dataMateri.map(materi => (

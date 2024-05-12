@@ -1,6 +1,7 @@
 import Page1 from "../components/Fragments/DetailMateri/Page1"
 import Page2 from "../components/Fragments/DetailMateri/Page2"
 import Page3 from "../components/Fragments/DetailMateri/Page3"
+import Page4 from "../components/Fragments/DetailMateri/Page4"
 
 
 
@@ -32,7 +33,7 @@ const dataMateri = [
         title : "Strategi Cerdik untuk Menjalani Gaya Hidup Sehat Jantung",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Cek kesehatan secara rutin bermanfaat untuk mengetahui kondisi kesehatan kita. Cek kesehatan dilakukan secara...",
-        element : <></>
+        element : <Page4/>
     },
     {
         id : "strategi-pencegahan-pjk-pada-penderita-hipertensi",

@@ -5,7 +5,7 @@ const About = () =>{
             <div className="container">
                 <div className="row overflow-hidden" >
                     <div className="col-md-5" data-aos="fade-right" data-aos-duration="1500">
-                        <img src="/img/anatomic-heart.jpg" className="w-100" alt=""  />
+                        <img src="/img/cari tahu.jpg" className="w-100" alt=""  />
                     </div>
                     <div className="col-md-7 d-flex justify-content-center align-items-center " data-aos="fade-left" data-aos-duration="1500">
                         <div className="text-center p-3">

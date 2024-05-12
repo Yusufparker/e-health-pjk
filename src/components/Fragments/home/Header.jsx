@@ -10,16 +10,16 @@ const Header = () =>{
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center align-items-center">
                         <div className="text-center">
-                            <h2 className="fw-bold ps-2 pe-2">E-HEALTH FOR HEALTH FAILURE</h2>
-                            <p className="mt-4">Discover the secret to keeping your heart healthy and bringing happiness to your life. A source of inspiration for a healthy lifestyle and sustainable happiness.</p>
-                            <Link className="mt-4 d-inline-block" to="/materi">Lihat Selengkapnya</Link>
+                            <h2 className="fw-bold ps-2 pe-2">DETEKSI JANTUNG DINI</h2>
+                            <p className="mt-4">Apakah Anda ingin mengetahui seberapa besar risiko Anda terkena penyakit jantung koroner? Dapatkan jawabannya dengan Screening Penyakit Jantung Koroner Secara Gratis.</p>
+                            <Link className="mt-4 d-inline-block" to="/screening">Mulai Skrining <i className="ms-2 bi bi-arrow-right"></i></Link>
                         </div>
                     </div>
                     
                     <div className="col-md-6 ps-5 pe-5 p-2 pb-2 img">
                         <LazyLoadImage
                             alt="jantung sehat"
-                            src="/img/jantunggg.jpg"
+                            src="/img/skrining.png"
                             className="w-100" 
                             effect="blur"    
                         />
