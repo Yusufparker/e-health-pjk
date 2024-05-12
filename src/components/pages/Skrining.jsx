@@ -510,7 +510,10 @@ const Skrining = () => {
             <div className="">
               {isSuccess === false ? (
                 isLoading === false ? (
-                  <img src="img/form skrining.jpg" alt="" className="w-50" />
+                  <div className="text-center">
+                    <img src="img/form skrining.jpg" alt="" className="w-50" />
+                  </div>
+
                 ) : (
                   <Loading />
                 )
