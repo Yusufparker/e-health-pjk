@@ -137,13 +137,13 @@ nav .kues-nav:hover{
 }
 
 .home .header h2{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .home .header img{
     border-radius: 50px;
 }
-
+    
 .home .header a{
     text-decoration: none;
     background-color: white;

@@ -10,9 +10,9 @@ const Header = () =>{
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center align-items-center">
                         <div className="text-center">
-                            <h2 className="fw-bold ps-2 pe-2">DETEKSI JANTUNG DINI</h2>
+                            <h2 className="fw-bold ps-2 pe-2 ">SCREENING KESEHATAN JANTUNG DINI</h2>
                             <p className="mt-4">Apakah Anda ingin mengetahui seberapa besar risiko Anda terkena penyakit jantung koroner? Dapatkan jawabannya dengan Screening Penyakit Jantung Koroner Secara Gratis.</p>
-                            <Link className="mt-4 d-inline-block" to="/screening">Mulai Skrining <i className="ms-2 bi bi-arrow-right"></i></Link>
+                            <Link className="mt-4 d-inline-block" to="/screening">Mulai Screening <i className="ms-2 bi bi-arrow-right"></i></Link>
                         </div>
                     </div>
                     

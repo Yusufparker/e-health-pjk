@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-const HeaderLayout = ({title, hasroot=true}) => {
+const HeaderLayout = ({title, hasroot=true,custom_name=""}) => {
   return (
     <div className="p-3 p-md-0 mt-3">
       <div className="container   bg-primary header-layout d-flex align-items-center position-relative">
@@ -23,7 +23,7 @@ const HeaderLayout = ({title, hasroot=true}) => {
               ''
             }  
             <i className="bi bi-caret-right-fill me-1"></i>
-            <span>{title}</span>
+            <span>{custom_name!="" ? custom_name : title}</span>
                 
 
         

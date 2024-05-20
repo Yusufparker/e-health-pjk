@@ -4,6 +4,9 @@ import HeaderLayout from "../Layouts/HeaderLayout";
 import axios from "axios";
 import CustomSelect from "../Fragments/path/CustomSelect";
 import Loading from "../Fragments/path/Loading";
+import toast, { Toaster } from "react-hot-toast";
+
+
 
 const Skrining = () => {
   const [name, setName] = useState("");
@@ -36,6 +39,10 @@ const Skrining = () => {
   const handleSmooke = (option) =>{
     setSmooke(option)
   }
+  const notify = () =>
+    toast("Sistem sedang menangani antrian permintaan. Coba lagi nanti!", {
+      icon: "⚠️",
+    });
 
   const handleNext = () =>{
     if(formSection < 3){
@@ -103,8 +110,12 @@ const Skrining = () => {
   const handleSubmit = async () => {
     setIsSuccess(false)
     setIsloading(true)
+    const headers = {
+      Authorization: 'nhhfgbvjkgheihyromuhammadyusuf16fhssnmakassmkdmblllaoweugfbbsnnxbvcagfwet',
+      "Content-Type": "application/json",
+    };
     try {
-      const response = await axios.post("https://e-health16.yusufparker.com/api/screenings", {
+      const response = await axios.post("http://localhost:8000/api/screenings",{
         name,
         age,
         family_history: familyHistory.value,
@@ -116,6 +127,9 @@ const Skrining = () => {
         height,
         weight,
         smooking_information: smooke.value,
+      },
+      {
+        headers
       });
 
 
@@ -140,6 +154,7 @@ const Skrining = () => {
       // clear()
     } catch (error) {
       console.log(error);
+      notify()
     }finally{
       setIsloading(false)
     }
@@ -149,8 +164,9 @@ const Skrining = () => {
     <LandingLayout>
       <div className="skrining mt-3">
         <HeaderLayout
-          title="Skrining Penyakit Jantung Koroner"
+          title="Screening Penyakit Jantung Koroner untuk penderita Diabetes Melitus dan Hipertensi pada Kelompok Prolanis"
           hasroot={false}
+          custom_name="Screening Penyakit Jantung Koroner"
         />
       </div>
 
@@ -162,7 +178,7 @@ const Skrining = () => {
                 Hai <span className="text-primary fw-bold">{name}</span>,
                 berikut adalah hasil skrining penyakit jantung koroner!
               </p>
-              <table class="table mt-4">
+              <table className="table mt-4">
                 <tbody className="fs-12">
                   <tr>
                     <th scope="row">
@@ -494,7 +510,7 @@ const Skrining = () => {
                     {isLoading === true && (
                       <>
                         <span
-                          class="spinner-border spinner-border-sm me-2 "
+                          className="spinner-border spinner-border-sm me-2 "
                           role="status"
                         ></span>
                       </>
@@ -513,7 +529,6 @@ const Skrining = () => {
                   <div className="text-center">
                     <img src="img/form skrining.jpg" alt="" className="w-50" />
                   </div>
-
                 ) : (
                   <Loading />
                 )
@@ -526,7 +541,7 @@ const Skrining = () => {
                       <p style={{ color: borderColor }}>{resultParameter}</p>
                     </div>
                     <div>
-                      <svg viewBox="0 0 100 100" class="circle-container">
+                      <svg viewBox="0 0 100 100" className="circle-container">
                         <circle
                           id="progress"
                           cx="50"
@@ -534,9 +549,9 @@ const Skrining = () => {
                           r={`${r}`}
                           fill="none"
                           stroke={borderColor}
-                          stroke-width="10"
-                          stroke-dasharray="251.2"
-                          stroke-dashoffset={percentage}
+                          strokeWidth="10"
+                          strokeDasharray="251.2"
+                          strokeDashoffset={percentage}
                         ></circle>
                       </svg>
                     </div>
@@ -546,7 +561,7 @@ const Skrining = () => {
             </div>
             {isSuccess === true && isLoading === false && (
               <div className="mt-3">
-                <table class="table fs-12">
+                <table className="table fs-12">
                   <thead>
                     <tr className="text-center">
                       <th scope="col">
@@ -580,15 +595,30 @@ const Skrining = () => {
               </div>
             )}
           </div>
-          {
-            isSuccess === true && isLoading===false &&(
-              <div className="text-center mt-5 mb-5">
-              <button className="btn w-auto bg-primary text-white fs-12 " onClick={handleReset}><i className="bi bi-arrow-clockwise"></i> Mulai Ulang</button>
-              </div>
-            )
-          }
+          {isSuccess === true && isLoading === false && (
+            <div className="text-center mt-5 mb-5">
+              <button
+                className="btn w-auto bg-primary text-white fs-12 "
+                onClick={handleReset}
+              >
+                <i className="bi bi-arrow-clockwise"></i> Mulai Ulang
+              </button>
+            </div>
+          )}
         </div>
       </div>
+      <Toaster
+        position="bottom-right"
+        reverseOrder={false}
+        toastOptions={{
+          style: {
+            border: "1px solid #FF7F3E",
+            padding: "16px",
+            color: "#FF7F3E",
+            fontSize: "14px",
+          },
+        }}
+      />
     </LandingLayout>
   );
 };
