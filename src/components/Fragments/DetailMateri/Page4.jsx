@@ -9,7 +9,7 @@ const CardStrategy = ({data}) => {
     return(
         <div className="col-md-4 text-center" >
             <LazyLoadImage
-                src="/img/insomnia.jpg"
+                src={data.image}
                 className="w-50 rounded-circle"
                 effect="blur"
 

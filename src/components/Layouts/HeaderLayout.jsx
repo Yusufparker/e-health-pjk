@@ -6,7 +6,7 @@ const HeaderLayout = ({title, hasroot=true,custom_name=""}) => {
       <div className="container   bg-primary header-layout d-flex align-items-center position-relative">
         <img src="/img/stetoskop.png" className="position-absolute" alt="" />
         <div className="col-md-10">
-          <h1 className="text-white ">{title}</h1>
+          <h1 className="text-white title">{title}</h1>
           <div className="text-white breadcrumbs">
             <Link to="/" className="text-white me-1">
               <i className="bi bi-house-fill"></i>

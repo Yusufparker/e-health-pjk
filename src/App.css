@@ -619,6 +619,9 @@ footer .sosmed a{
 
 /* media mobile */
 @media screen and (max-width:768px) {
+    .header-layout .title{
+        font-size: 20px;
+    }
     nav .kues{
         display: none !important    ;
     }

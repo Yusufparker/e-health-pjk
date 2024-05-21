@@ -3,36 +3,36 @@
         "id":"1",
         "title":"Cek kesehatan dan konsultasikan ke dokter jika terdapat keluhan",
         "body": "Cek kesehatan secara rutin bermanfaat untuk mengetahui kondisi kesehatan kita. Cek kesehatan dilakukan secara rutin minimal 1 tahun sekali",
-        "image":""
+        "image":"/img/cek kesehatan.jpg"
     },
     {
         "id":"2",
         "title":"Enyahkan Asap Rokok",
         "body": "Berhenti merokok bahkan jika Anda bukan seorang perokok, pastikan untuk menjauhi perokok pasif. Kurangi frekuensi merokok secara perlahan, gantilah rokok dengan permen karet atau cobalah aktivitas baru untuk menggantikan merokok.",
-        "image":""
+        "image":"/img/no_smoking.jpg"
     },
     {
         "id":"3",
         "title":"Rajin Melakukan Aktivitas Fisik",
         "body": "Cobalah berolahraga di pagi hari sebelum memulai kesibukan. Lakukan ativitas setidaknya 30-60 menit setiap hari sepeti berjalan cepat atau berlari",
-        "image":""
+        "image":"/img/aktivitas fisik.jpg"
     },
     {
         "id":"4",
         "title":"Diet Seimbang",
         "body": "Hindari makanan tinggi; minuman manis; karbohidrat yang sangat halus; makanan olahan seperti daging olahan; lemak jenuh (daging merah, produk susu berlemak penuh, minyak sawit, dan minyak kelapa); lemak trans (makanan cepat saji yang digoreng, keripik, dan makanan yang dipanggang).",
-        "image":""
+        "image":"/img/junk food.jpg"
     },
     {
         "id":"5",
         "title":"Istirahat Cukup",
         "body": "Minimal 7 jam tidur setiap malam, tetapkan jadwal tidur teratur. Usahakan kamar tidur gelap dan tenang.",
-        "image":""
+        "image":"/img/insomnia.jpg"
     },
     {
         "id":"6",
         "title":"Kelola Stres",
         "body": "Kelola stress dengan sehat seperti aktivitas fisik, latihan relaksasi, yoga atau meditasi.",
-        "image":""
+        "image":"/img/kelelahan.jpg"
     }
 ]

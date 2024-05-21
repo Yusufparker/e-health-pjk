@@ -10,7 +10,7 @@ const Footer = () => {
                             <img src="/img/logo-health.png" className="me-2 d-inline-block" style={{ height:"30px"}} alt="" />
                             <h1 className="fw-bold mt-2 text-black">E-HEALTH </h1>
                         </div>
-                        <p className="col-md-8 m-auto fs-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sint ex, possimus unde quisquam et tempore optio vero maxime ratione, beatae voluptate corrup.</p>
+                        <p className="col-md-8 m-auto fs-12">If you experience any problems with our e-health services, contact our support team immediately. We promise to provide fast solutions and ensure your service remains optimal.</p>
                         <div className="d-flex justify-content-center sosmed mt-4">
                             <Link>
                                 <i className="bi bi-linkedin"></i>

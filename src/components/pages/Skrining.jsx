@@ -115,7 +115,7 @@ const Skrining = () => {
       "Content-Type": "application/json",
     };
     try {
-      const response = await axios.post("http://localhost:8000/api/screenings",{
+      const response = await axios.post("https://e-health16.yusufparker.com/api/screenings",{
         name,
         age,
         family_history: familyHistory.value,
@@ -151,6 +151,7 @@ const Skrining = () => {
 
       setBorderColor(color)
       setIsSuccess(true)
+      console.log(response);
       // clear()
     } catch (error) {
       console.log(error);

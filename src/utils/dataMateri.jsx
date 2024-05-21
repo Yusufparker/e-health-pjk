@@ -2,6 +2,9 @@ import Page1 from "../components/Fragments/DetailMateri/Page1"
 import Page2 from "../components/Fragments/DetailMateri/Page2"
 import Page3 from "../components/Fragments/DetailMateri/Page3"
 import Page4 from "../components/Fragments/DetailMateri/Page4"
+import Page5 from "../components/Fragments/DetailMateri/Page5"
+import Page6 from "../components/Fragments/DetailMateri/Page6"
+import Page7 from "../components/Fragments/DetailMateri/Page7"
 
 
 
@@ -40,21 +43,21 @@ const dataMateri = [
         title : "Strategi Pencegahan PJK pada Penderita Hipertensi",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Hipertensi (tekanan darah tinggi) mempengaruhi 1 dari 3 orang dewasa di seluruh dunia. Hipertensi dapat mempersempit...",
-        element : <></>
+        element : <Page5/>
     },
     {
         id : "strategi-pencegahan-pjk-pada-penderita-dm",
         title : "Strategi Pencegahan PJK Pada Penderita DM",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Kadar gula darah yang tinggi dan tidak terkontrol dapat meningkatkan risiko penyakit jantung. Gula darah yang tinggi...",
-        element : <></>
+        element : <Page6/>
     },
     {
         id : "strategi-pencehajan-pjk-pada-penderita-kolesterol-tinggi",
         title : "Strategi Pencehajan PJK pada Penderita Kolesterol Tinggi",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Kolesterol tinggi merupakan kondisi ketika kadar kolesterol dalam darah meningkat, dalam istilah medis disebut...",
-        element : <></>
+        element : <Page7/>
     }
 ]
 
