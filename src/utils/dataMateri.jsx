@@ -5,6 +5,7 @@ import Page4 from "../components/Fragments/DetailMateri/Page4"
 import Page5 from "../components/Fragments/DetailMateri/Page5"
 import Page6 from "../components/Fragments/DetailMateri/Page6"
 import Page7 from "../components/Fragments/DetailMateri/Page7"
+import Page8 from "../components/Fragments/DetailMateri/Page8"
 
 
 
@@ -12,24 +13,31 @@ import Page7 from "../components/Fragments/DetailMateri/Page7"
 const dataMateri = [
     {
         id : "apa-itu-penyakit-jantung-koroner",
-        title : "Apa itu Penyakit Jantung Koroner",
+        title : "Apa itu Penyakit Jantung Koroner?",
         thumbnail : "/img/materi/1.png",
         excerpt:"Penyakit jantung koroner (PJK) merupakan jenis  penyakit jantung dimana pembuluh darah...",
         element : <Page1/>
     },
     {
         id : "faktor-risiko-terkena-penyakit-jantung-koroner",
-        title : "Faktor Risiko Terkena Penyakit Jantung Koroner",
+        title : "Apa Saja Faktor Risiko Terkena Penyakit Jantung Koroner?",
         thumbnail : "/img/materi/2.jpg",
         excerpt:"Lanjut usia mempunyai risiko lebih tinggi terkena penyakit jantung.  Meski proses penuaan....",
         element : <Page2/>
     },
     {
         id : "apa-saja-tanda-gejala-penyakit-jantung-koroner",
-        title : "Apa Saja Tanda Gejala Penyakit Jantung Koroner",
+        title : "Apa Saja Tanda Gejala Penyakit Jantung Koroner?",
         thumbnail : "/img/materi/3.jpg",
         excerpt:"Tekanan darah tinggi merupakan penyebab utama  penyakit jantung karena merusak lapisan...",
         element : <Page3/>
+    },
+    {
+        id : "hati-hati-diabetes-melitus-dan-hipertensi-dapat-beresiko-terkena-penyakit-jantung",
+        title : "Hati-hati Diabetes Melitus dan Hipertensi Dapat Beresiko Terkena Penyakit Jantung",
+        thumbnail : "/img/materi/3.jpg",
+        excerpt:"Diabetes melitus dikenal sebagai faktor risiko yang signifikan untuk penyakit jantung koroner. Tingginya kadar glukosa dalam darah pada penderita diabetes dapat merusak pembuluh darah..",
+        element : <Page8/>
     },
     {
         id : "Strategi-cerdik-untuk-menjalani-gaya-hidup-sehat-jantung",
